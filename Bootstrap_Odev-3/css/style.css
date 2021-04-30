@@ -1,3 +1,31 @@
+.border-white-2 {
+  border: 2px solid white;
+}
+
+.en-yeni {
+  position: sticky;
+  overflow: visible;
+  padding-top: 4rem;
+}
+
+.ftg-color {
+  fill: #70B5F9;
+}
+
+.vd-color {
+  fill: #7FC15E;
+}
+
+.etk-color {
+  fill: #E7A33E;
+}
+
+.yaz-color {
+  fill: #F5987E ;
+}
+
+/**************************************************************/
+
 .navbarbg {
   height: 55px;
   background-color: white;
@@ -13,7 +41,7 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/kodluyoruz-front-end/Bootstrap_Odev-3/assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
 }
@@ -65,7 +93,7 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(/kodluyoruz-front-end/Bootstrap_Odev-3/assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
 }
