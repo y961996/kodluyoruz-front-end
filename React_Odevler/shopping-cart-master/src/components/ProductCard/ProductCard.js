@@ -8,7 +8,6 @@ const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
     <Col style={{ margin: "30px 0px" }}>
       <Card className="">
         <Card.Img
-          top
           className="image"
           src={product.image}
           alt={product.title}
@@ -27,7 +26,7 @@ const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
                     variant="danger"
                     size="lg"
                     onClick={() => onDecrement(cartItem)}
-                    style={{ "margin-top": "auto" }}
+                    style={{ marginTop: "auto" }}
                   >
                     <MinusCircleIcon />
                   </Button>
@@ -45,7 +44,7 @@ const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
                     variant="primary"
                     size="lg"
                     onClick={() => onIncrement(cartItem)}
-                    style={{ "margin-top": "auto" }}
+                    style={{ marginTop: "auto" }}
                   >
                     <PlusCircleIcon />
                   </Button>
@@ -56,7 +55,7 @@ const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
                 <Button
                   variant="primary"
                   onClick={() => onIncrement(cartItem)}
-                  style={{ "margin-top": "auto" }}
+                  style={{ marginTop: "auto" }}
                 >
                   Add to Cart
                   <CartIcon />
